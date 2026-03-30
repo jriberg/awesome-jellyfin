@@ -1,0 +1,554 @@
+{
+  "generatedAtUtc": "2026-03-30T14:53:03+00:00",
+  "readmePath": "README.md",
+  "sections": [
+    "metadata providers",
+    "plugins"
+  ],
+  "apiFallbackEnabled": false,
+  "stats": {
+    "reposDiscovered": 83,
+    "reposWithManifest": 53,
+    "reposFailed": 30,
+    "pluginRecordsBeforeMerge": 59,
+    "pluginsAfterMerge": 57
+  },
+  "sources": [
+    {
+      "repo": "apteryxxyz/jellyfin-plugin-air-times",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/apteryxxyz/jellyfin-plugin-air-times/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "cedev-1/jellyfin-plugin-DiscordNotifier",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/cedev-1/jellyfin-plugin-DiscordNotifier/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "cedev-1/jellyfin-plugin-GetAvatar",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/cedev-1/jellyfin-plugin-GetAvatar/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "CherryFloors/jellyfin-plugin-cinemamode",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/CherryFloors/jellyfin-plugin-cinemamode/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "cleverdevil/jelly-static-assets",
+      "defaultBranch": "HEAD",
+      "manifestPath": "repository/manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/cleverdevil/jelly-static-assets/HEAD/repository/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "cleverdevil/plexyfin",
+      "defaultBranch": "HEAD",
+      "manifestPath": "metadata/stable/manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/cleverdevil/plexyfin/HEAD/metadata/stable/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "Cloud9Developer/Jellyfin-Newsletter-Plugin",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/Cloud9Developer/Jellyfin-Newsletter-Plugin/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "CodeDevMLH/Jellyfin-Seasonals",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/CodeDevMLH/Jellyfin-Seasonals/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "DirtyRacer1337/Jellyfin.Plugin.Stash",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/DirtyRacer1337/Jellyfin.Plugin.Stash/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "Druidblack/Jellyfin.Plugin.ActorPlus",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/Druidblack/Jellyfin.Plugin.ActorPlus/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "Druidblack/Jellyfin.Plugin.ArtworkMultiSource",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/Druidblack/Jellyfin.Plugin.ArtworkMultiSource/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "Druidblack/Jellyfin.Plugin.JF_To_Stash_Sync",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/Druidblack/Jellyfin.Plugin.JF_To_Stash_Sync/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "Druidblack/Jellyfin.Plugin.MDBList_Ratings",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/Druidblack/Jellyfin.Plugin.MDBList_Ratings/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "Eeeeelias/playlist-generator",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/Eeeeelias/playlist-generator/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "EusthEnoptEron/jellyfin-plugin-animethemes",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/EusthEnoptEron/jellyfin-plugin-animethemes/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "fdett/jellyfin-ignore",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/fdett/jellyfin-ignore/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "Fovty/HoverTrailer",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/Fovty/HoverTrailer/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "G-grbz/Jellyfin-MonWUI-Plugin",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/G-grbz/Jellyfin-MonWUI-Plugin/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "GeiserX/jelly-covers",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/GeiserX/jelly-covers/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "GeiserX/jelly-subtitles",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/GeiserX/jelly-subtitles/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "Gizmo091/jellyfin-plugin-letterboxd-sync",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/Gizmo091/jellyfin-plugin-letterboxd-sync/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "grandguyjs/media-upload-plugin",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/grandguyjs/media-upload-plugin/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "iankiller77/MyAnimeSync",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/iankiller77/MyAnimeSync/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "JellyboxAD/Jellyfin.Plugin.StreamLimit",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/JellyboxAD/Jellyfin.Plugin.StreamLimit/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "jon4hz/jellyfin-plugin-discontinue-watching",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-discontinue-watching/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "jon4hz/jellyfin-plugin-jellysleep",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/jon4hz/jellyfin-plugin-jellysleep/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "K3ntas/jellyfin-plugin-ratings",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/K3ntas/jellyfin-plugin-ratings/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "kamilkosek/jellyfin-plugin-provider-stuff",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/kamilkosek/jellyfin-plugin-provider-stuff/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "Kamoba/jellyfin-plugin-thedwarfshammer",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/Kamoba/jellyfin-plugin-thedwarfshammer/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "KeksBombe/jellyfin-plugin-auto-collections",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/KeksBombe/jellyfin-plugin-auto-collections/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "lachlandcp/jellyfin-editors-choice-plugin",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/lachlandcp/jellyfin-editors-choice-plugin/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "lennykean/jellyfin-powertoys",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/lennykean/jellyfin-powertoys/HEAD/manifest.json",
+      "pluginCount": 7,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "lostb1t/jellyfin-plugin-collection-import",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/lostb1t/jellyfin-plugin-collection-import/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "n00bcodr/Jellyfin-Enhanced",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/n00bcodr/Jellyfin-Enhanced/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "n00bcodr/Jellyfin-JavaScript-Injector",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/n00bcodr/Jellyfin-JavaScript-Injector/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "n00bcodr/JellyfinTweaks",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/n00bcodr/JellyfinTweaks/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "Namo2/InPlayerEpisodePreview",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "nicknsy/jellyscrub",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/nicknsy/jellyscrub/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "rdpharr/jellyfin-plugin-localrecs",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/rdpharr/jellyfin-plugin-localrecs/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "RomainPierre7/jellyfin-plugin-TelegramNotifier",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "ryandash/jellyfin-plugin-myanimelist",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/ryandash/jellyfin-plugin-myanimelist/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "Sanidhya30/Jellyfin-Newsletter",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/Sanidhya30/Jellyfin-Newsletter/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "ShokoAnime/Shokofin",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/ShokoAnime/Shokofin/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "streamyfin/jellyfin-plugin-streamyfin",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/streamyfin/jellyfin-plugin-streamyfin/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "te9c/jellyfin-plugin-shikimori",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/te9c/jellyfin-plugin-shikimori/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "ThePornDatabase/Jellyfin.Plugin.ThePornDB",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "TheXaman/jellyfin-plugin-languageTags",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/TheXaman/jellyfin-plugin-languageTags/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "voc0der/jellyfin-imdb-rating-updater",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/voc0der/jellyfin-imdb-rating-updater/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "voc0der/jellyfin-transcode-nag",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/voc0der/jellyfin-transcode-nag/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "vosmiic/jellyfin-ani-sync",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/vosmiic/jellyfin-ani-sync/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "webbster64/jellyfin-plugin-AnimeMultiSource",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/webbster64/jellyfin-plugin-AnimeMultiSource/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    },
+    {
+      "repo": "ztffn/Jellyfin-Roulette",
+      "defaultBranch": "HEAD",
+      "manifestPath": "manifest.json",
+      "rawUrl": "https://raw.githubusercontent.com/ztffn/Jellyfin-Roulette/HEAD/manifest.json",
+      "pluginCount": 1,
+      "truncatedTree": false,
+      "discoveryMethod": "raw-head"
+    }
+  ],
+  "selectedSourceByGuid": {
+    "27b03c3b-9e2a-4f47-941a-82bbb5beedd8": "apteryxxyz/jellyfin-plugin-air-times",
+    "8f3c85d3-19cf-4e50-a57e-7d2ce3c0c413": "cedev-1/jellyfin-plugin-DiscordNotifier",
+    "88accc81-d913-44b3-b1d3-2abfa457dd2d": "cedev-1/jellyfin-plugin-GetAvatar",
+    "5fcefe1b-df1f-4596-ac57-f2f939c294c5": "CherryFloors/jellyfin-plugin-cinemamode",
+    "1f826750-d8f1-4e44-a814-9432d2833dc0": "cleverdevil/jelly-static-assets",
+    "b9f0c474-e9a8-4292-ae41-eb3c1542f4cd": "cleverdevil/plexyfin",
+    "60f478ab-2dd6-4ea0-af10-04d033f75979": "Sanidhya30/Jellyfin-Newsletter",
+    "ef1e863f-cbb0-4e47-9f23-f0cbb1826ad4": "CodeDevMLH/Jellyfin-Seasonals",
+    "8f97371f-8617-463c-9859-a33072182494": "DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult",
+    "57b8ef5d-8835-436d-9514-a709ee25faf2": "DirtyRacer1337/Jellyfin.Plugin.Stash",
+    "d47f75a1-2c4c-4aa1-a1cd-5da6e5e6ccfd": "Druidblack/Jellyfin.Plugin.ActorPlus",
+    "6215a9ee-6574-44cd-a5c5-4604b3709a76": "Druidblack/Jellyfin.Plugin.ArtworkMultiSource",
+    "61db1999-72b9-4f58-ac15-25aedcabd583": "Druidblack/Jellyfin.Plugin.JF_To_Stash_Sync",
+    "ab96f8b5-45ef-44be-81d6-99bc01e26b9d": "Druidblack/Jellyfin.Plugin.MDBList_Ratings",
+    "975dde10-724f-4b72-8efc-91a1cb2d9510": "Eeeeelias/playlist-generator",
+    "086022b5-29fb-4f89-a298-3d595492a5ed": "EusthEnoptEron/jellyfin-plugin-animethemes",
+    "277cd84e-44c3-45a1-8f3c-2537ddac0ccf": "fdett/jellyfin-ignore",
+    "82c71cde-a52b-44f1-a18e-d93eb6a35ed0": "Fovty/HoverTrailer",
+    "c0b4a5e0-2f6a-4e70-9c5f-1e7c2d0b7f12": "G-grbz/Jellyfin-MonWUI-Plugin",
+    "82eef869-3f18-4678-968d-06efc10b60cf": "GeiserX/jelly-covers",
+    "97124bd9-c8cd-4a53-a213-e593aa3fef52": "GeiserX/jelly-subtitles",
+    "b1fb3d98-3336-4b87-a5c9-8a948bd87233": "Gizmo091/jellyfin-plugin-letterboxd-sync",
+    "b5a2d6b3-c5f4-4f88-aed4-5f3e9877d0a6": "grandguyjs/media-upload-plugin",
+    "28612bb6-e3ab-4099-a682-f413d4ca19d3": "iankiller77/MyAnimeSync",
+    "d98fbe02-daf3-4c09-a832-4b4e1d07326c": "JellyboxAD/Jellyfin.Plugin.StreamLimit",
+    "74a22212-e4c5-4b5c-8d77-04e7e220f28d": "jon4hz/jellyfin-plugin-discontinue-watching",
+    "a760bbb5-7b7b-4fda-951c-f3c39d689a8f": "jon4hz/jellyfin-plugin-jellysleep",
+    "a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d": "K3ntas/jellyfin-plugin-ratings",
+    "eb5d7894-8eef-4b36-aa6f-5d124e828ce1": "kamilkosek/jellyfin-plugin-provider-stuff",
+    "a8f9f3e5-1234-5678-9abc-def012345678": "Kamoba/jellyfin-plugin-thedwarfshammer",
+    "06ebf4a9-1326-4327-968d-8da00e1ea2eb": "KeksBombe/jellyfin-plugin-auto-collections",
+    "70bb2ec1-f19e-46b5-b49a-942e6b96ebae": "lachlandcp/jellyfin-editors-choice-plugin",
+    "c797039e-7640-45bb-a83f-7976220285dc": "lennykean/jellyfin-powertoys",
+    "ac5bb0cf-9de9-4c42-b72f-c59d1edbb6ae": "lennykean/jellyfin-powertoys",
+    "c03a2469-eed0-4107-95b1-6dfda14fb0fc": "lennykean/jellyfin-powertoys",
+    "f0194bb3-788d-43b8-96c9-bb32f996db4a": "lennykean/jellyfin-powertoys",
+    "6a65ce4e-fb35-4e99-8f37-02bc3979fe7e": "lennykean/jellyfin-powertoys",
+    "5513dce4-a436-495c-8925-30845bf2c1dd": "lennykean/jellyfin-powertoys",
+    "36eb87e0-0373-423b-a547-2acb96e33430": "lennykean/jellyfin-powertoys",
+    "a708187e-5f82-4610-9c84-ec1f2837d5fe": "lostb1t/jellyfin-plugin-collection-import",
+    "f69e946a-4b3c-4e9a-8f0a-8d7c1b2c4d9b": "n00bcodr/Jellyfin-Enhanced",
+    "f5a34f7b-2e8a-4e6a-a722-3a216a81b374": "n00bcodr/Jellyfin-JavaScript-Injector",
+    "dfee3828-01df-49df-85b1-5c2b75e5ea1a": "n00bcodr/JellyfinTweaks",
+    "73833d5f-0bcb-45dc-ab8b-7ce668f4345d": "Namo2/InPlayerEpisodePreview",
+    "a84a949d-4b73-4099-aacb-8341b4da17ba": "nicknsy/jellyscrub",
+    "2d2a8fdf-0593-4258-a83c-31c4b14e0110": "rdpharr/jellyfin-plugin-localrecs",
+    "fd76211d-17e0-4a72-a23f-c6eeb1e48b3a": "RomainPierre7/jellyfin-plugin-TelegramNotifier",
+    "ed04e975-f906-4b58-a250-705550810623": "ryandash/jellyfin-plugin-myanimelist",
+    "5216ccbf-d24a-4eb3-8a7e-7da4230b7052": "ShokoAnime/Shokofin",
+    "1e9e5d38-6e67-4615-8719-e98a5c34f004": "streamyfin/jellyfin-plugin-streamyfin",
+    "7edb2a28-5b8a-4fe8-ae11-d941315eb862": "te9c/jellyfin-plugin-shikimori",
+    "fb7580cf-576d-4991-8e56-0b4520c111d3": "ThePornDatabase/Jellyfin.Plugin.ThePornDB",
+    "e6ee25c2-d12c-4382-a48c-66ee9c1c33cb": "TheXaman/jellyfin-plugin-languageTags",
+    "f5a3c7e1-9b2d-4f6a-8e0c-1d3b5a7c9e2f": "voc0der/jellyfin-imdb-rating-updater",
+    "c78f11cf-93e6-4423-8c42-d2c255b70e47": "vosmiic/jellyfin-ani-sync",
+    "8eca6f17-71fe-4309-a670-3cae083f22bd": "webbster64/jellyfin-plugin-AnimeMultiSource",
+    "a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d": "ztffn/Jellyfin-Roulette"
+  }
+}

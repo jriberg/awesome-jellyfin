@@ -116,6 +116,41 @@
 - [Jellyfin Plugin ThePornDB](https://github.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB) - Metadata provider for ThePornDB.
 - [jellyfin-youtube-metadata-plugin](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) - YouTube Metadata Plugin.
 
+### 📦 Unified Plugin Manifest
+
+This repository can generate a single Jellyfin-compatible plugin manifest from the plugin repositories listed above.
+
+Run:
+
+```bash
+python3 scripts/build_plugin_manifest.py
+```
+
+Generated files:
+
+- `manifests/manifest.json` - merged plugin manifest for Jellyfin.
+- `manifests/manifest-sources.json` - discovered source manifests and statistics.
+- `manifests/manifest-failures.json` - repositories that failed discovery and why.
+- `manifests/readme-repos.json` - extracted GitHub repositories from README plugin sections.
+
+Optional flags:
+
+```bash
+python3 scripts/build_plugin_manifest.py --strict --github-token-env GITHUB_TOKEN
+```
+
+Notes:
+
+- The script first checks common manifest paths on `raw.githubusercontent.com` to avoid API limits.
+- GitHub API tree fallback is automatically enabled when `GITHUB_TOKEN` is set.
+- You can force API fallback without a token using `--allow-unauthenticated-api-fallback` (may hit rate limits quickly).
+
+If your Python runtime cannot validate certificates in your environment, you can opt in to:
+
+```bash
+python3 scripts/build_plugin_manifest.py --insecure-skip-tls-verify
+```
+
 
 ## 🖌️ Themes
 
@@ -252,4 +287,3 @@ This section contains links to communities which focus on Jellyfin or related to
 
 Contributions welcome! But please read the [contribution guidelines](CONTRIBUTING.md) first.
 You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues/new).
-
