@@ -120,6 +120,8 @@
 
 This repository can generate a single Jellyfin-compatible plugin manifest from the plugin repositories listed above.
 
+Need full step-by-step docs? See [docs/unified-plugin-manifest-guide.md](docs/unified-plugin-manifest-guide.md).
+
 Run:
 
 ```bash
